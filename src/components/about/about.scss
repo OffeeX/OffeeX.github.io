@@ -1,0 +1,43 @@
+.about {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  border-image: linear-gradient(20deg, #232e34, #363041) 1;
+  border-width: 1px;
+}
+
+.aboutDescription {
+  margin-bottom: 50px;
+  line-height: 25px;
+  overflow-wrap: break-word;
+
+  font-size: 1.2em;
+  color: #8d85b6;
+  text-shadow: 0 0 10px rgba(96, 52, 183, 0.55);
+
+  & p {
+    margin: 10px auto;
+  }
+}
+
+.aboutHeader {
+  margin-top: 40px;
+  margin-bottom: 24px;
+
+  font-size: clamp(40px, 7vw, 60px);
+  color: #c0bdcb;
+}
+
+.projectsWrapper {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(360px, 700px));
+  justify-content: center;
+  grid-gap: 20px;
+}
